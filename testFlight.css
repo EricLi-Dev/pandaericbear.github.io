@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+  margin: 0;
+}
+body{
+  background-color: #1B1B1B;
+}
+
+h1{
+  text-align: center;
+}
+
+.parallax{
+  position: relative;
+  z-index: 0;
+  height: 700px;
+  background-image: url("https://i.paste.pics/4I9XH.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -150px;
+  left: 0px;
+}
+
+.nav{
+  position: absolute;
+  background-color: #1B1B1B;
+  width: 450px;
+  height: 80px;
+  left: 520px;
+  top: 300px;
+}
+
+h1{
+  color: black;
+  font-family: Raleway;
+  z-index: 99999;
+}
+
+p{
+  font-size: 100px;
+  text-align: center;
+}
+
+
+/*-------------------------------------------------------------------
+//                            **NAVBAR**
+//-------------------------------------------------------------------*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sliders{
+  padding-top: 80px;
+}
+
+.myslides{
+  display: none;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline;
+  width: 355px;
+  float: left;
+  text-align: center;
+  padding-left: 100px
+}
+
+a{
+  text-align: center;
+}
+
+li a{
+  display: inline-block;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* ---------- */
+/*  3 SLIDER  */
+/* ---------- */
+.about-div{
+  position: block;
+  margin-top: 0px;
+  margin-left: 300px;
+  background-color: #bfc2c9;
+  width: 1440px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.second-div{
+  position: block;
+  margin-top: 200px;
+  margin-left: 300px;
+  background-color: #bfc2c9;
+  width: 1440px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.third-div{
+  position: block;
+  margin-top: 200px;
+  margin-left: 0px;
+  background-color: #bfc2c9;
+  width: 1440px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+/*---------//
+    CURSOR
+//---------*/
+.txt-type{
+  position: relative;
+  top: 20px;
+  left: 0px;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+
+.txt-type > .txt {
+  border-right: 0.2rem solid #000
+}
+
+.left-side-column{
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  margin-left: 25px;
+  background-color: #1B1B1B;
+  width: 525px;
+  height: 1250px;
+  float: left;
+  box-shadow: 6px 0px 5px -5px #999
+}
+
+#logo{
+  position: relative;
+  top: -10px;
+  left: 50px;
+  border-radius: 10px;
+
+}
+
+#developers{
+  position: relative;
+  color: white;
+  left: 0px;
+}
+
+#dev-text{
+  position: relative;
+  top: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dev-line{
+  position: relative;
+  left: 50px;
+  top: 25px;
+  width: 400px;
+  height: 2px;
+  background-color: white;
+}
+
+#facebook{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  left: 175px;
+}
+
+#twitter{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  left: 175px;
+}
+
+#discord{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  left: 175px;
+}
+
+#about{
+  position: relative;
+  color: white;
+  left: 0px;
+}
+
+#about-text{
+  position: relative;
+  top: 100px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#story{
+  position: relative;
+  color: white;
+  top: 225px;
+  left: 0px;
+}
+
+#story-text{
+  position: relative;
+  top: 325px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#items{
+  position: relative;
+  color: white;
+  top: 475px;
+  left: 0px;
+}
+
+#items-text{
+  position: relative;
+  top: 575px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#items-list{
+  position: relative;
+  color: white;
+  top: 725px;
+  left: 0px;
+}
+
+
+.line{
+  position: relative;
+  left: 750px;
+  top: 25px;
+  width: 500px;
+  height: 2px;
+  background-color: white;
+}
+
+.line2{
+  position: relative;
+  left: 750px;
+  top: 250px;
+  width: 500px;
+  height: 2px;
+  background-color: white;
+}
+
+.line3{
+  position: relative;
+  left: 750px;
+  top: 500px;
+  width: 500px;
+  height: 2px;
+  background-color: white;
+}
+
+.line4{
+  position: relative;
+  left: 750px;
+  top: 750px;
+  width: 500px;
+  height: 2px;
+  background-color: white;
+}
+
+
+/*-----------//
+   TYPEWRITER
+//-----------*/
+
+.typewriter{
+  position: absolute;
+  z-index: 9999999999;
+  text-align: center;
+  padding-top: 240px;
+  padding-left: 610px;
+  color: black;
+  height: 250px;
+  width: 250px;
+  opacity: 150;
+}
+
+.jumbotron{
+  background-color: #bfc2c9;
+  margin-left: 300px;
+  width: 1440px;
+  height: 500px;
+  padding: 2.1px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#jumboText{
+  color: white;
+  padding-top: 2.5px;
+}
+
+button{
+margin-top: 50%;
+margin-left: 25px;
+border-radius: 45%;
+padding: 15px 20px;
+}
+
+button: hover{
+  background-color: green;
+}
+
+.right{
+  margin-top: -500px;
+  margin-left: 1300px;
+}
+
+.left{
+  margin-top: -500px;
+  margin-left: 0px;
+}
+
+#typeletters{
+  opacity: 150;
+}
+
+/*-------------------------------------------------------------------
+//                            **AUTOMATIC SLIDER**
+//-------------------------------------------------------------------*/
+/* Slideshow container */
+.slideshow-container {
+  background-color: gray;
+  height: 500px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
